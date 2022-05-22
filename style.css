@@ -1,0 +1,68 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile {
+	height: 250px;
+	width: 250px;
+}
+
+#landing {
+	/*viewport height*/
+	height: 80vh;
+	display: flex;
+/*arranges elements inside the parent element, will allow us to layout our elements our landing section*/
+	flex-direction: column;
+
+	/*centering the elements vertically*/
+	align-items: center;
+
+	justify-content: center;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 75vh;
+	border-radius: 6px;
+
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	/*hex alphanumeric */
+	color: #007bff;
+}
+
+.tools {
+	/*line around the elment*/
+	border: 5px solid #f2f2f2;
+
+	/*spage outside the element*/
+	margin: 20px;
+
+	padding: 25px;
+
+	height: 200px;
+	width: 75%;
+	color: white;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
